@@ -24,7 +24,7 @@ public class ManavKasaProgrami {
         muzP = 0.95;
         patlicanP = 5.00;
         total = (armut*armutP) + (elma*elmaP) + (domates*domatesP) + (muz*muzP) + (patlican*patlicanP);
-        System.out.println("Toplam Ücret :" + total);
+        System.out.println("Toplam Ücret :" + total + "\tTL");
 
     }
 }
