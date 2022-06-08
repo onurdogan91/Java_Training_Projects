@@ -2,13 +2,14 @@ import java.util.Scanner;
 
 public class HesapMakinesi {
     public static void main(String[] args) {
-        int n1, n2, select;
+        double n1, n2;
+        int select;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Bir sayı giriniz : ");
-        n1 = input.nextInt();
+        n1 = input.nextDouble();
         System.out.println("Diğer sayıyı giriniz :");
-        n2 = input.nextInt();
+        n2 = input.nextDouble();
 
         System.out.println("1 - Toplama\n2 - Çıkarma\n3 - Çarpma\n4 - Bölme");
         System.out.println("Seçiminiz :");
