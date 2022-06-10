@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class SinifGecmeDurumu {
     public static void main(String[] args) {
-        int mat1,mat2,fiz1,fiz2,turk1,turk2,kim1,kim2,bio1,bio2;
+        double mat1,mat2,fiz1,fiz2,turk1,turk2,kim1,kim2,bio1,bio2;
         double mat,fiz,turk,kim,bio;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Matematik Vize Notunuz :");
-        mat1 = input.nextInt();
+        mat1 = input.nextDouble();
         if (mat1 < 0 || mat1 > 100){
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
             mat1 = 0;
         }
 
         System.out.println("Matematik Final Notunuz :");
-        mat2 = input.nextInt();
+        mat2 = input.nextDouble();
         if (mat2 < 0 || mat2 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -22,7 +22,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Fizik Vize Notunuz :");
-        fiz1 = input.nextInt();
+        fiz1 = input.nextDouble();
         if (fiz1 < 0 || fiz1 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -30,7 +30,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("fizik Final Notunuz :");
-        fiz2 = input.nextInt();
+        fiz2 = input.nextDouble();
         if (fiz2 < 0 || fiz2 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -38,7 +38,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Türkçe Vize Notunuz :");
-        turk1 = input.nextInt();
+        turk1 = input.nextDouble();
         if (turk1 < 0 || turk1 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -46,7 +46,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Türkçe Final Notunuz :");
-        turk2 = input.nextInt();
+        turk2 = input.nextDouble();
         if (turk2 < 0 || turk2 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -54,7 +54,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Kimya Vize Notunuz :");
-        kim1 = input.nextInt();
+        kim1 = input.nextDouble();
         if (kim1 < 0 || kim1 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -62,7 +62,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Kimya Final Notunuz :");
-        kim2 = input.nextInt();
+        kim2 = input.nextDouble();
         if (kim2 < 0 || kim2 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -70,7 +70,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Biyoloji Vize Notunuz :");
-        bio1 = input.nextInt();
+        bio1 = input.nextDouble();
         if (bio1 < 0 || bio1 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
@@ -78,7 +78,7 @@ public class SinifGecmeDurumu {
         }
 
         System.out.println("Biyoloji Final Notunuz :");
-        bio2 = input.nextInt();
+        bio2 = input.nextDouble();
         if (bio2 < 0 || bio2 > 100)
         {
             System.out.println("Girdiğiniz Notu Kontrol Ediniz!!!");
